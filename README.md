@@ -1,5 +1,6 @@
 # js-oop
 javascript面向对象编程
+<h2>Javascript 面向对象编程（一）：封装</h2>
 <p>Javascript是一种基于对象（object-based）的语言，你遇到的所有东西几乎都是对象。但是，它又不是一种真正的面向对象编程（OOP）语言，因为它的语法中没有class（类）。</p>
 <p>那么，如果我们要把"属性"（property）和"方法"（method），封装成一个对象，甚至要从原型对象生成一个实例对象，我们应该怎么做呢？</p>
 <h3>一、 生成实例对象的原始模式</h3>
@@ -117,3 +118,5 @@ in运算符还可以用来遍历某个对象的所有属性。
     　    　for(var prop in cat1) {
     　    　  alert("cat1["+prop+"]="+cat1[prop]); 
     　    　  }
+
+<a href="构造函数的继承.md">下一节</a>
