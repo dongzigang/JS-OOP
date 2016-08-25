@@ -113,4 +113,6 @@ in运算符可以用来判断，某个实例是否含有某个属性，不管是
   　  　alert("type" in cat1); // true
 in运算符还可以用来遍历某个对象的所有属性。
 
-　    　for(var prop in cat1) { alert("cat1["+prop+"]="+cat1[prop]); }
+　    　for(var prop in cat1) {
+　    　  alert("cat1["+prop+"]="+cat1[prop]); 
+　    　  }
