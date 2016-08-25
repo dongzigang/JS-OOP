@@ -109,10 +109,11 @@ Javascript规定，每一个构造函数都有一个prototype属性，指向另�
 <h4>6.3 in运算符</h4>
 in运算符可以用来判断，某个实例是否含有某个属性，不管是不是本地属性。
   
-    　　alert("name" in cat1); // true
-  　  　alert("type" in cat1); // true
+        　 alert("name" in cat1); // true
+      　  　alert("type" in cat1); // true
+      　  　
 in运算符还可以用来遍历某个对象的所有属性。
 
-　    　for(var prop in cat1) {
-　    　  alert("cat1["+prop+"]="+cat1[prop]); 
-　    　  }
+    　    　for(var prop in cat1) {
+    　    　  alert("cat1["+prop+"]="+cat1[prop]); 
+    　    　  }
